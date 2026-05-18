@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — AgriVate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand"><img src="agri logo.png" alt="AgriVate" class="nav-logo"></a>
+      <ul class="navbar-nav" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="nav-cta">Get Started →</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-oval"></div>
+    <div class="container page-hero-inner">
+      <div class="breadcrumb reveal">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        Contact
+      </div>
+      <div class="eyebrow reveal" data-d="1">Get In Touch</div>
+      <h1 class="s-title reveal" data-d="2" style="font-size:clamp(2.8rem,7vw,5.5rem)">
+        Ready to<br>Grow?
+      </h1>
+      <p class="s-sub reveal" data-d="3">
+        Contact our agricultural experts today. We'll assess your farm and design a solution that delivers real, measurable results.
+      </p>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LEFT: Info -->
+        <div>
+          <div class="eyebrow reveal">Contact Details</div>
+          <h2 class="s-title reveal" data-d="1" style="font-size:2.2rem">Let's Talk Farming</h2>
+          <p class="s-sub reveal" data-d="2" style="margin-bottom:32px">Reach us through any of the channels below. We typically respond within 24 hours.</p>
+
+          <div class="c-list">
+            <div class="c-item reveal" data-d="1">
+              <div class="c-icon">📧</div>
+              <div>
+                <h4>General Inquiries</h4>
+                <a href="mailto:inquires.agrivate@gmail.com">inquires.agrivate@gmail.com</a>
+              </div>
+            </div>
+            <div class="c-item reveal" data-d="2">
+              <div class="c-icon">🤝</div>
+              <div>
+                <h4>Partnerships</h4>
+                <a href="mailto:relations@memeyai.com">relations@memeyai.com</a>
+              </div>
+            </div>
+            <div class="c-item reveal" data-d="3">
+              <div class="c-icon">📱</div>
+              <div>
+                <h4>Call or WhatsApp</h4>
+                <a href="tel:+254794153677">+254 794 153 677</a>
+              </div>
+            </div>
+            <div class="c-item reveal" data-d="4">
+              <div class="c-icon">💼</div>
+              <div>
+                <h4>Follow Us</h4>
+                <a href="https://www.linkedin.com/company/agrivateke/posts/?feedView=all" target="_blank">LinkedIn — AgriVate Kenya</a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/254794153677?text=Hello%20Agrivate%2C%20I%27m%20interested%20in%20your%20smart%20farming%20solutions" class="wa-btn reveal" data-d="5" target="_blank">
+            💬 Chat on WhatsApp Now
+          </a>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div class="c-form-wrap reveal" data-d="2">
+          <div class="eyebrow" style="margin-bottom:20px">Send a Message</div>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="fg">
+                <label>Full Name</label>
+                <input type="text" name="name" placeholder="John Kamau" required>
+              </div>
+              <div class="fg">
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="you@email.com" required>
+              </div>
+            </div>
+            <div class="fg">
+              <label>Phone Number</label>
+              <input type="tel" name="phone" placeholder="+254 7XX XXX XXX">
+            </div>
+            <div class="fg">
+              <label>Farm Type</label>
+              <select name="farm-type">
+                <option value="">Select your farm type</option>
+                <option value="smallholder">Smallholder</option>
+                <option value="large-scale">Large-Scale</option>
+                <option value="dairy">Dairy</option>
+                <option value="aquaculture">Aquaculture</option>
+                <option value="hydroponics">Hydroponics</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label>Service Interested In</label>
+              <select name="service">
+                <option value="">Select a service</option>
+                <option value="training">Training & Education</option>
+                <option value="smart-farming">Smart Farming Solutions</option>
+                <option value="irrigation">Irrigation Technology</option>
+                <option value="hydroponics">Hydroponics</option>
+                <option value="dairy">Dairy Farming</option>
+                <option value="aquaculture">Aquaculture</option>
+                <option value="soil">Soil Technology</option>
+                <option value="community">Community Empowerment</option>
+                <option value="workshops">Farming Workshops</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label>Tell Us About Your Farming Goals</label>
+              <textarea name="goals" rows="5" placeholder="Describe your farm, current challenges, and what you hope to achieve with AgriVate..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-g form-submit-btn">Send Message →</button>
+            <div class="form-ok" id="formOk">
+              ✅ Message received! We'll be in touch within 24 hours.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section style="background:var(--bg-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="container">
+      <div class="eyebrow reveal">FAQ</div>
+      <h2 class="s-title reveal" data-d="1">Common Questions</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:50px" class="faq-grid">
+        <div class="c-item reveal" data-d="1" style="flex-direction:column;align-items:flex-start;gap:10px">
+          <h4 style="font-size:.95rem;color:#f97316">How quickly can you set up a system on my farm?</h4>
+          <p style="font-size:.85rem;color:var(--text-mid);line-height:1.7">Most installations are completed within 2–4 weeks from initial assessment, depending on farm size and service type.</p>
+        </div>
+        <div class="c-item reveal" data-d="2" style="flex-direction:column;align-items:flex-start;gap:10px">
+          <h4 style="font-size:.95rem;color:#f97316">Do you work with small-scale farmers?</h4>
+          <p style="font-size:.85rem;color:var(--text-mid);line-height:1.7">Absolutely. We serve farmers from half-acre plots to large commercial operations. Solutions are always scaled to your needs and budget.</p>
+        </div>
+        <div class="c-item reveal" data-d="3" style="flex-direction:column;align-items:flex-start;gap:10px">
+          <h4 style="font-size:.95rem;color:#f97316">Which counties are you currently active in?</h4>
+          <p style="font-size:.85rem;color:var(--text-mid);line-height:1.7">We are active in Nairobi, Kiambu, Nakuru, Meru, Kisumu, Uasin Gishu, and Machakos. We're expanding rapidly — contact us even if your county isn't listed.</p>
+        </div>
+        <div class="c-item reveal" data-d="4" style="flex-direction:column;align-items:flex-start;gap:10px">
+          <h4 style="font-size:.95rem;color:#f97316">What kind of ongoing support do you provide?</h4>
+          <p style="font-size:.85rem;color:var(--text-mid);line-height:1.7">All clients receive monthly data reports, access to our agronomist helpline, and scheduled farm visits to ensure continued growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">AGRI<span class="dot">.</span>VATE</div>
+          <p>Cultivating the future of agriculture in Kenya and beyond. AI-powered solutions for every farmer.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">Smart Farming</a></li>
+            <li><a href="services.html">Hydroponics</a></li>
+            <li><a href="services.html">Dairy Solutions</a></li>
+            <li><a href="services.html">Aquaculture</a></li>
+            <li><a href="services.html">Irrigation Tech</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:inquires.agrivate@gmail.com">inquires.agrivate@gmail.com</a></li>
+            <li><a href="tel:+254794153677">+254 794 153 677</a></li>
+            <li><a href="https://www.linkedin.com/company/memeyaigroup/posts/?feedView=all" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 AgriVate. Empowering farmers · Sustaining communities · Growing tomorrow.</p>
+        <p>Built by <a href="https://business.memeyai.com/" target="_blank">MemeY AI</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <style>
+    @media(max-width:768px){
+      .faq-grid{grid-template-columns:1fr !important}
+    }
+  </style>
+</body>
+</html>
